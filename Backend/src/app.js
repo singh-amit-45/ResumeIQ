@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://resumeiq-backend-053s.onrender.com",
+    origin: "https://resumeiq-frontend-h9e0.onrender.com/login",
     credentials: true
 }))
 
