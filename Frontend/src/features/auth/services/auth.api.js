@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 const api = axios.create({
-    baseURL: "https://vibetube-backend.onrender.com",
+    baseURL: "https://resumeiq-backend-053s.onrender.com",
     withCredentials: true
 })
 
